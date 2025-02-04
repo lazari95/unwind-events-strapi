@@ -1,5 +1,5 @@
 {
-  "name": "unwind-events",
+    "name": "unwind-events",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -28,8 +28,8 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=20.0.0 <=22.x.x",
-    "npm": ">=6.0.0 <=7.x.x"
+    "node": ">=20.0.0 <21.0.0",
+    "npm": ">=6.0.0 <8.0.0"
   },
   "strapi": {
     "uuid": "c6ba4ee8-a20c-4c58-8da6-aa54c886e318"
