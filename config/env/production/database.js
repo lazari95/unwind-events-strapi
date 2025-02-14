@@ -7,7 +7,7 @@ export default ({ env }) => ({
         database: env('DATABASE_NAME'),
         user: env('DATABASE_USERNAME'),
         password: env('DATABASE_PASSWORD'),
-        ssl: false, // Disable SSL
+        ssl: false, // Make sure this is set
       },
       debug: false,
     },
