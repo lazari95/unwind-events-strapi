@@ -485,6 +485,12 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    featured: Schema.Attribute.Boolean &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::event.event'>;
     publishedAt: Schema.Attribute.DateTime;
